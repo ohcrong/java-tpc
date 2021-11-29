@@ -16,6 +16,10 @@ public class App {
         arraySum(arr);
     }
 
+    public static int mult(int a, int b) {
+        return a*b;
+    }
+
     public static void sum(int x, int y, int z){
         int sum = 0;
         sum = x + y + z;
