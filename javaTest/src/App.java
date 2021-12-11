@@ -3,5 +3,8 @@ public class App {
         //Override
         Sport football = new Football();
         football.play();
+
+        //downcasting
+        ((Football)football).cornerKick();
     }
 }
