@@ -1,10 +1,13 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        //Override
-        Sport football = new Football();
-        football.play();
+        //직접이용
+        Football football = new Football();
+        
+        //간접이용 , UPCASTING
+        Sport sport = new Football();
+        sport.play();
 
-        //downcasting
-        ((Football)football).cornerKick();
+        //DOWNCASTING
+        ((Football)sport).cornerKick();
     }
 }

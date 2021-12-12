@@ -4,7 +4,5 @@ public class Sport {
         System.out.println("play");
     }
 
-    public Sport() {
-        
-    }
+    public Sport() { }
 }

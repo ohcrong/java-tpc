@@ -9,11 +9,5 @@ public class Football extends Sport {
         System.out.println("ready for header");
     }
 
-    public void lionelMessi() {
-        System.out.println("the first 7 Ballon d'Or winner in history");
-    }
-
-    public Football() {
-
-    }
+    public Football() { }
 }
