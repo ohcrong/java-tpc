@@ -1,9 +1,11 @@
 public class Football extends Sport implements Ball, Team{
-    
+    //class 상속은 하나만 가능
     @Override
     public void play() {
         System.out.println("play first half");
     }
+    //interface는 다중상속 가능하다.
+    //override는 필수!
     @Override
     public void playWithBall() {
         System.out.println("play with the ball");
