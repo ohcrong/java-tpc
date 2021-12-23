@@ -1,3 +1,6 @@
+package javaTest.poly;
+import javaTest.poly.*;
+
 public class Football extends Sport implements Ball, Team{
     //class 상속은 하나만 가능
     @Override
